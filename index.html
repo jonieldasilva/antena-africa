@@ -483,9 +483,12 @@ html, body {
 #s5.active .rule { opacity: 1; }
 
 #s5 .cols {
-  display: grid; grid-template-columns: 1fr 1fr;
-  gap: 0; flex: 1;
-  opacity: 0; transition: opacity 0.6s 0.6s;
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  flex: 1;
+  opacity: 0;
+  transition: opacity 0.6s 0.6s;
 }
 #s5.active .cols { opacity: 1; }
 
@@ -862,7 +865,7 @@ html, body {
     <div class="content">
       <div class="section-label">02 — Identidade</div>
       <div class="title">O NOME<br>DO CANAL</div>
-      <div class="name-row"><div class="name-key">Antena África</div><div class="name-val">Direto. O continente primeiro, o meio depois.</div></div>
+      
       <div class="name-row"><div class="name-key" style="color:var(--ink);font-weight:900">Antena África ✓</div><div class="name-val" style="color:var(--ink);font-weight:500">Nome escolhido — sintonia, alcance, presença permanente no ar.</div></div>
       <div class="name-row"><div class="name-key">Afro-Rádio</div><div class="name-val">Compacto. Reconhecível. Forte nas redes.</div></div>
       <div class="name-row"><div class="name-key">Frequência África</div><div class="name-val">Canal e cultura — a mesma frequência.</div></div>
@@ -926,6 +929,7 @@ html, body {
         </div>
         <div class="row-right">
           <div class="row-label">A expansão digital</div>
+            <div class="custom-text" style="font-weight:900;font-size:40px;line-height:90%;color:#fff;margin:32px 0;">ANTENA<br>AFRICA</div>
           <div class="row-text">A <strong>Antena África</strong> é a continuação desse trabalho no ambiente digital. O mesmo rigor curatorial, a mesma voz — agora no YouTube e no Instagram, alcançando quem nunca sintonizou o rádio.</div>
         </div>
       </div>
